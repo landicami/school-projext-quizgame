@@ -1,1 +1,1 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/AYWC8jot)
+Create a quiz game where players have to guess the name of a country based on its flag. Originally, the quiz contained images and names of classmates, but due to GDPR regulations, I replaced it with flags and countries. Please disregard any changes in css-style resulting from this."
