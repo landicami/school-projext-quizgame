@@ -1,0 +1,29 @@
+.hide {
+  display: none;
+}
+
+.redBackground {
+  background-color: red;
+}
+
+.greenBackground {
+  background-color: green;
+}
+
+h2,h3 {
+text-align: center;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+figure {
+  width: 25%;
+  margin: 0px auto;
+}
+
+#foot {
+text-align: end;
+margin-top: 20px;
+}

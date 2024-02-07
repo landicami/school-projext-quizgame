@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My game</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-dark text-white">
+    <header>
+      <div class="container"><h1>Game 2023</h1></div>
+    </header>
+    <main>
+    <article class="game container hide">
+      <h2>Who iz Diz?</h2>
+      <div class="row">
+        <div class="col">
+          <!-- Min bild med klass picture-->
+          <figure>
+            <img 
+            src="assets/flags/Austria.jpg" 
+            class="newImage img-fluid" 
+            alt="Foto på flagga>
+              <figcaption>Foto på flagga!
+              </figcaption>
+        </figure>
+        </div>
+
+         <!-- Mina gissninga "-->
+          <section class="row justify-content-center p-3">
+            <h3>Vilket är landet?</h3>
+          </section>
+            <div class="row button-container justify-content-center p-3">
+              <div class="d-grid gap-2 col-lg-4 col-m-4 col-8 mb-2">
+                <button class="btn btn-secondary guess-1" type="button">Gissa</button>
+                <button class="btn btn-secondary guess-2" type="button">Gissa</button>
+              </div>
+              <div class="d-grid gap-2 col-lg-4 col-m-4 col-8 mb-2">
+                <button class="btn btn-secondary guess-3" type="button">Gissa</button>
+                <button class="btn btn-secondary guess-4" type="button">Gissa</button>
+              </div>
+          </div>
+      </div>
+    </article>
+  </main>
+
+    
+    
+    <!-- En box med resultat som kommer fram -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-m-8 col-8 border border-2 border-danger bg-white text-dark pt-2 pb-2 m-1 finalresult hide">
+          <p></p>
+        </div>
+      </div>
+    </div> 
+
+    <!-- En box att klicka på för starta om -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col pt-3 text-center rounded">
+          <button class="btn btn-success text-white restart hide " type="reset">Starta om spelet</button>
+        </div>
+      </div>
+    </div>
+  
+      <!-- Starta spel box -->
+      <article class="container d-flex align-items-center justify-content-center">
+          <div class="startaSpelBox row">
+            <div class="col border border-2 border-danger bg-white text-dark p-2">
+              <h2>Välkommen till spelet™</h2>
+              <p>Starta spelet genom att välja antalet gissningar.</p>
+              <div class="row justify-content-around">
+                <div class="col-2 px-3 m-1 rounded">
+                  <button class="tenguess btn btn-success">10</button>
+                </div>
+                  <div class="col-2 px-3 m-1 rounded">
+                    <button class="fifteenguess btn btn-success">15</button>
+                  </div>
+                <div class="col-2 px-3 m-1 rounded">
+                  <button class="allGuesses btn btn-success">Alla </button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </article>
+    
+
+    <script src="flags.js"></script>
+    <script src="script.js"></script>
+    <footer id="foot" class="container"><p>Camilla Landin Copyright</p></footer>
+  </body>
+</html>
